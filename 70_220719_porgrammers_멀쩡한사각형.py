@@ -12,4 +12,12 @@ def solution(w,h):
     new_gcd = GCD(w, h)
     cross_block_num = (w/new_gcd + h/new_gcd - 1) * new_gcd
     answer = w * h - cross_block_num
-    return answer
+    return answer    
+  
+  
+  # def GDB(a, b) : 
+  #   while b != 0 : 
+  #     a, b = b, a % b
+  #     return a 
+
+      
